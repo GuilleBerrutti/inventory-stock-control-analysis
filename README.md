@@ -47,19 +47,15 @@ Entre los principales riesgos detectados se encuentran:
 
 ---
 
- 💡 Recomendaciones Estratégicas
+##  💡 Recomendaciones Estratégicas
 
 ## 🔴 Reposición inmediata
 
 Automatizar alertas para productos críticos y reducir pérdidas potenciales de venta en **hasta 15%**.
 
----
-
 ## 🟡 Monitoreo preventivo
 
 Aplicar revisiones periódicas para anticipar desabastecimiento.
-
----
 
 ## 🟢 Optimización de sobrestock
 
@@ -67,7 +63,6 @@ Reducir exceso de inventario puede liberar hasta **20% del capital inmovilizado*
 
 ---
 
----
 
 # 📊 Enfoque Analítico
 
@@ -94,9 +89,6 @@ Clasificación automática del inventario:
 - 🟡 Moderado  
 - 🟢 Sobrestock  
 
-</details>
-
-<details>
 <summary><b>🔹 Conversión Numérica (`::numeric`)</b></summary>
 
 Precisión financiera aplicada al cálculo de:
@@ -105,9 +97,6 @@ Precisión financiera aplicada al cálculo de:
 - Costos asociados  
 - Indicadores económicos críticos  
 
-</details>
-
-<details>
 <summary><b>🔹 Ordenamiento Estratégico y Alias</b></summary>
 
 Optimización de legibilidad mediante:
@@ -116,9 +105,6 @@ Optimización de legibilidad mediante:
 - Nombres descriptivos de métricas  
 - Reporte ejecutivo listo para negocio  
 
-</details>
-
----
 ---
 
 # 📊 Resultado del Proyecto
@@ -148,83 +134,5 @@ La implementación del análisis permite:
 - Priorizar compras críticas automáticamente  
 - Incrementar eficiencia del abastecimiento  
 
----
-
-# 💡 Recomendaciones Estratégicas
-
-## 🔴 Reposición inmediata
-
-Automatizar alertas para productos críticos y reducir pérdidas potenciales de venta en **hasta 15%**.
-
----
-
-## 🟡 Monitoreo preventivo
-
-Aplicar revisiones periódicas para anticipar desabastecimiento.
-
----
-
-## 🟢 Optimización de sobrestock
-
-Reducir exceso de inventario puede liberar hasta **20% del capital inmovilizado**.
-
----
-
-## ⚙️ Escalabilidad analítica
-
-Integrar el modelo con **Power BI** para monitoreo en tiempo real y alertas automatizadas.
 
 
----
-
-<summary>🔥 3. Heatmap — Mora vs Score Crediticio</summary>
-
-<br>
-
-## 🎯 Objetivo
-
-Detectar segmentos críticos cruzando:
-- Rangos de mora.
-- Score crediticio.
-
----
-
-## 📌 Interpretación Estratégica
-
-### 🔴 Zona Crítica
-- Score bajo.
-- Mora superior a 90 días.
-
-### 🟢 Zona de Oportunidad
-- Score alto.
-- Mora temprana.
-
----
-
-## 💡 Insight Clave
-
-Los clientes con score bajo evolucionan más rápidamente hacia estados críticos de mora.
-
----
-
-## 🚀 Recomendación Estratégica
-
-Incrementar refinanciaciones tempranas en segmentos de riesgo medio podría reducir aproximadamente un 12% la migración hacia mora crítica.
-
----
-
-## 🧠 Lógica de Negocio
-
-| Variable | Interpretación |
-|---|---|
-| Columnas | Rangos de mora |
-| Filas | Segmentos de score |
-| Intensidad | Exposición financiera |
-
----
-
-<p align="center">
-  <img src="https://github.com/GuilleBerrutti/Gestion_de_cobranzas/blob/main/collections-strategy-analytics/screenshots/tramos_mora.png" width="40%">
-</p>
-
----
