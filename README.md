@@ -1,7 +1,5 @@
 # 📦 Inventory Intelligence & Stock Optimization
 
-Análisis estratégico de inventario orientado a detectar riesgos operativos, optimizar niveles de stock y mejorar la eficiencia financiera mediante analítica aplicada en SQL.
-
 ---
 
 # 🎯 Objetivo del Proyecto
