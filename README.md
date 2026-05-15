@@ -80,7 +80,6 @@ Incluye:
 
 # 🛠️ Técnicas Aplicadas
 
-<details>
 <summary><b>🔹 Lógica Condicional (`CASE WHEN`)</b></summary>
 
 Clasificación automática del inventario:
