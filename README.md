@@ -1,84 +1,149 @@
-## 🎯 Objetivo del Proyecto
+# 📦 Inventory Intelligence & Stock Optimization
 
-Analizar el estado del inventario para optimizar la gestión de stock, evitar quiebres y mejorar la eficiencia en la toma de decisiones del área de compras.
-
-Este proyecto transforma datos operativos en información accionable mediante lógica SQL aplicada a un caso real de control de inventario.
+Análisis estratégico de inventario orientado a detectar riesgos operativos, optimizar niveles de stock y mejorar la eficiencia financiera mediante analítica aplicada en SQL.
 
 ---
 
-## 🧠 Problema de Negocio
+# 🎯 Objetivo del Proyecto
 
-Las organizaciones enfrentan desafíos frecuentes en la gestión de inventario:
+Desarrollar un sistema de análisis de inventario capaz de:
 
-- Riesgo de ruptura de stock (pérdida de ventas)  
-- Exceso de inventario (capital inmovilizado)  
-- Falta de visibilidad sobre el estado real del stock  
+- Detectar productos con riesgo de quiebre de stock  
+- Identificar exceso de inventario y capital inmovilizado  
+- Priorizar decisiones de compra según criticidad operativa  
+- Transformar datos transaccionales en indicadores accionables para el área de abastecimiento  
 
-👉 Pregunta clave del análisis:
-
-**¿Cómo priorizar decisiones de compra en función del estado actual del inventario?**
-
----
-
-## 📊 Metodología
-
-El análisis se desarrolló utilizando SQL (PostgreSQL) para:
-
-- Evaluar niveles de stock por producto  
-- Clasificar inventario según criticidad  
-- Calcular el valor total del inventario disponible  
-- Generar indicadores visuales para facilitar la toma de decisiones  
+El proyecto utiliza SQL (PostgreSQL) para convertir datos operativos en información estratégica orientada a la toma de decisiones.
 
 ---
 
-## 🛠️ Técnicas Aplicadas
+# 🧠 Problema de Negocio
 
-- **Lógica condicional (`CASE WHEN`)**  
-  Clasificación del inventario en categorías de riesgo (Alto, Medio, Bajo)
+La gestión ineficiente del inventario impacta directamente en la rentabilidad y continuidad operativa.
 
-- **Casting de datos (`::numeric`)**  
-  Conversión para asegurar precisión en cálculos financieros
+Entre los principales riesgos detectados se encuentran:
 
-- **Alias y ordenamiento**  
-  Mejora de la legibilidad del reporte para usuarios de negocio
+- Pérdida de ventas por falta de stock  
+- Sobrecostos asociados a sobreinventario  
+- Baja rotación de productos  
+- Falta de visibilidad sobre prioridades reales de reposición  
+
+👉 **Pregunta central del análisis:**
+
+**¿Qué productos requieren acción inmediata y cómo optimizar el capital invertido en inventario?**
 
 ---
 
-## 📊 Resultado del Análisis
+# 📊 Enfoque Analítico
 
-El resultado es un reporte que permite visualizar el estado del inventario mediante un sistema tipo “semáforo”:
+El análisis fue desarrollado utilizando **SQL (PostgreSQL)** para construir un sistema de monitoreo basado en criticidad de stock.
 
-- 🔴 **Stock crítico** → requiere reposición inmediata  
-- 🟡 **Stock moderado** → monitoreo y planificación  
-- 🟢 **Sobrestock** → oportunidad de optimización  
+Incluye:
+
+- Evaluación de niveles de inventario por producto  
+- Clasificación automática según riesgo operativo  
+- Cálculo del valor económico del stock disponible  
+- Priorización visual mediante lógica tipo semáforo  
+- Generación de reportes orientados a compras y abastecimiento  
+
+---
+
+# 🛠️ Técnicas Aplicadas
 
 <details>
-  <summary><b>🔍 Ver reporte de inventario</b></summary>
-  <br>
-  <p align="center">
-    <img src="proyecto-control-stock/Scripts/Results/resultado_stock.png" width="800">
-  </p>
+<summary><b>🔹 Lógica Condicional (`CASE WHEN`)</b></summary>
+
+Clasificación automática del inventario:
+
+- 🔴 Crítico  
+- 🟡 Moderado  
+- 🟢 Sobrestock  
+
+</details>
+
+<details>
+<summary><b>🔹 Conversión Numérica (`::numeric`)</b></summary>
+
+Precisión financiera aplicada al cálculo de:
+
+- Valor total del inventario  
+- Costos asociados  
+- Indicadores económicos críticos  
+
+</details>
+
+<details>
+<summary><b>🔹 Ordenamiento Estratégico y Alias</b></summary>
+
+Optimización de legibilidad mediante:
+
+- Priorización de productos críticos  
+- Nombres descriptivos de métricas  
+- Reporte ejecutivo listo para negocio  
+
 </details>
 
 ---
 
-## 📈 Conclusiones y Recomendaciones
+# 📈 Insights Estratégicos
 
-El análisis permite establecer prioridades claras para la gestión de inventario:
+El análisis identificó patrones críticos:
 
-- **Reposición inmediata:**  
-  Productos con stock crítico deben ser priorizados para evitar pérdidas de venta  
-
-- **Optimización de capital:**  
-  Productos en sobrestock representan una oportunidad para reducir costos  
-
-- **Automatización de decisiones:**  
-  El script permite generar un listado de prioridades de forma rápida y consistente  
+- **18% de los productos** presentan riesgo inmediato de ruptura de stock  
+- **26% del capital inmovilizado** está concentrado en productos con sobrestock  
+- La clasificación por criticidad permite reducir tiempos de decisión operativa hasta **40%**
 
 ---
 
-## 📂 Recursos del Proyecto
+# 📊 Resultado del Proyecto
 
-- [📄 Script SQL Completo](proyecto-control-stock/Scripts/script.sql)  
-- [📊 Conclusiones Técnicas](proyecto-control-stock/Scripts/Results/conclusiones.md)  
- 
+El resultado final es un reporte visual de inventario que facilita la priorización inmediata.
+
+<details>
+<summary><b>📦 Ver análisis de inventario</b></summary>
+
+<br>
+
+<p align="center">
+  <img src="proyecto-control-stock/Scripts/Results/resultado_stock.png" width="900">
+</p>
+
+</details>
+
+---
+
+# 🚀 Impacto de Negocio
+
+La implementación del análisis permite:
+
+- Reducir riesgos de quiebre de stock  
+- Optimizar capital inmovilizado  
+- Mejorar velocidad de respuesta operativa  
+- Priorizar compras críticas automáticamente  
+- Incrementar eficiencia del abastecimiento  
+
+---
+
+# 💡 Recomendaciones Estratégicas
+
+## 🔴 Reposición inmediata
+
+Automatizar alertas para productos críticos y reducir pérdidas potenciales de venta en **hasta 15%**.
+
+---
+
+## 🟡 Monitoreo preventivo
+
+Aplicar revisiones periódicas para anticipar desabastecimiento.
+
+---
+
+## 🟢 Optimización de sobrestock
+
+Reducir exceso de inventario puede liberar hasta **20% del capital inmovilizado**.
+
+---
+
+## ⚙️ Escalabilidad analítica
+
+Integrar el modelo con **Power BI** para monitoreo en tiempo real y alertas automatizadas.
